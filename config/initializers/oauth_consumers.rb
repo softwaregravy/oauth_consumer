@@ -3,11 +3,11 @@
 #
 # eg. :twitter => TwitterToken, :hour_feed => HourFeedToken etc.
 #
-# OAUTH_CREDENTIALS={
-#   :twitter=>{
-#     :key=>"",
-#     :secret=>""
-#   },
+ OAUTH_CREDENTIALS={
+   :twitter=>{
+     :key=>"tqCmpZfsVbTDeugOS0MXDg",
+     :secret=>"S8V@2kZDoPs1VWARxBJ8u9loMfhnKvsWhMcITwNz8"
+   },
 #   :google=>{
 #     :key=>"",
 #     :secret=>"",
@@ -38,9 +38,9 @@
 #       :site=>"http://nubux.heroku.com" 
 #     }
 #   }
-# }
+ }
 # 
 OAUTH_CREDENTIALS={
 } unless defined? OAUTH_CREDENTIALS
 
-load 'oauth/models/consumers/service_loader.rb'
+#load 'oauth/models/consumers/service_loader.rb'
