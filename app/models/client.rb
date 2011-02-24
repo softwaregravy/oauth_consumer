@@ -10,6 +10,7 @@ class Client
 
     def get_comments
       @@connection.get Endpoint.comments
+
     end 
   end 
 end 
